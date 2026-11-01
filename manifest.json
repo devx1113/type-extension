@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "DeepL Korean Typing",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Type Korean (Hangul, 2-set layout) on deepl.com without an OS input method.",
   "permissions": [
     "storage"
@@ -9,6 +9,17 @@
   "action": {
     "default_title": "DeepL Korean Typing",
     "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "toggle-language": {
+      "suggested_key": {
+        "default": "Alt+Shift+K"
+      },
+      "description": "Switch typing language (Korean/English)"
+    }
   },
   "content_scripts": [
     {

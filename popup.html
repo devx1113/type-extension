@@ -11,6 +11,7 @@
     label { display: flex; align-items: center; gap: 8px; padding: 6px 4px; border-radius: 6px; cursor: pointer; }
     label:hover { background: #8882; }
     p { margin: 8px 0 0; font-size: 11px; opacity: 0.7; }
+    kbd { font: inherit; font-weight: 600; }
   </style>
 </head>
 <body>
@@ -19,6 +20,7 @@
     <label><input type="radio" name="language" value="ko"> 한국어 (Korean)</label>
     <label><input type="radio" name="language" value="en"> English</label>
   </fieldset>
+  <p>Shortcut: <kbd id="shortcut"></kbd> <a id="change-shortcut" href="#">Change</a></p>
   <p>On deepl.com, Shift+Space also switches the language.</p>
   <script src="popup.js"></script>
 </body>

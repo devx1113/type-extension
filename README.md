@@ -12,7 +12,8 @@ Type Korean on deepl.com with the standard 2-set (Dubeolsik) layout. No OS input
 
 - Korean is the default language. Type `dkssudgktpdy` to get 안녕하세요.
 - Click the extension's toolbar icon to set the language to **Korean** or **English**. Open DeepL tabs update right away.
-- **Shift+Space**, the Hangul key, or the `한`/`A` button at the bottom right also switches the language.
+- **Alt+Shift+K** switches the language from anywhere in Chrome. Change it at `chrome://extensions/shortcuts`.
+- On deepl.com, **Shift+Space**, the Hangul key, or the `한`/`A` button at the bottom right also switches it.
 - The **Keys** button shows which key produces which letter.
 - Hold Shift for double consonants and ㅒ/ㅖ, e.g. Shift+R for ㄲ.
 
