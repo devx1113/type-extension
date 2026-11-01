@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "DeepL Korean Typing",
+  "version": "1.1.0",
+  "description": "Type Korean (Hangul, 2-set layout) on deepl.com without an OS input method.",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_title": "DeepL Korean Typing",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.deepl.com/*"
+      ],
+      "js": [
+        "hangul.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
